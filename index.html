@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greeting Names</title>
+</head>
+<body>
+  <h1>Follow the steps</h1>
+  <p>Right click to inspect and see the console</p>
+  <script>
+    // Array of names
+    var names = ["John", "Jane", "Alex", "Jessica", "James"];
+
+    // Loop over the array and print greetings
+    for (var i = 0; i < names.length; i++) {
+      var name = names[i];
+
+      // Check if the name starts with 'j' or 'J'
+      if (name.charAt(0) === 'j' || name.charAt(0) === 'J') {
+        console.log("Goodbye " + name);
+      } else {
+        console.log("Hello " + name);
+      }
+    }
+  </script>
+</body>
+</html>
